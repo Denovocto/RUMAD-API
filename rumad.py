@@ -10,7 +10,7 @@ def escape_ansi(line):
 
 
 class Course:
-    def __init__(self, name=str(), section=str(), credits=int(), classroom=str(), time=dt.datetime(), professor=str()):
+    def __init__(self, name=str(), section=str(), credits=int(), classroom=str(), time=dt.datetime(1, 1, 1), professor=str()):
         self.CLASS = {
             "section": section,
             "credits": credits,
